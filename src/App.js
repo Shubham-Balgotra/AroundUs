@@ -24,7 +24,7 @@ const Header = ({ bgColor, selectedCountry }) => {
                 fontWeight: "bold",
                 textTransform: "uppercase",
             }}>
-                The Daily Brief: Top Headlines for {formattedCategory} in {selectedCountry}
+                The Daily Briefff: Top Headlines for {formattedCategory} in {selectedCountry}
             </h2>
             <p style={{
                 fontSize: "1.2rem",
