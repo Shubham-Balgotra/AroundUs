@@ -1,0 +1,67 @@
+/* About.css */
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .about-title {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-intro,
+
+  .about-join {
+    color: #555;
+    line-height: 1.6;
+    font-size: 18px;
+  }
+  
+  .about-subtitle {
+    color: #007bff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  
+  .about-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #444;
+  }
+  
+  .about-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  strong {
+    color: #007bff;
+  }
+
+  .about-footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px; /* Adjust spacing from the content above */
+    font-size: 14px; /* Adjust font size */
+    color: #555; /* Adjust text color */
+  }
+
+  .about-container {
+    text-align: justify; /* Ensures both sides of the text are aligned */
+  }
+  
+  .about-title, .about-subtitle {
+    text-align: center; /* Center the titles */
+  }
+  
+  .about-list {
+    padding-left: 20px; /* Add padding to the list for better alignment */
+  }
+  
