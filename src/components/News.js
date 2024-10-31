@@ -82,9 +82,17 @@ export class News extends Component {
     }
   }
 
-  resetArticles = () => {
-    this.setState({ articles: [], offset: 0, hasFetched: false }, this.fetchArticles);
-  };
+ resetArticles = () => {
+    const defaultCategory = 'general'; // Set a valid default category
+    this.setState({ 
+      articles: [], 
+      offset: 0, 
+      hasFetched: false, 
+      localSearchQuery: '', // Reset local search query here
+      selectedDate: null, 
+      category: defaultCategory // Set a valid default category
+    }, this.fetchArticles);
+};
 
   handleScroll = () => {
     const { loading, offset, totalCount } = this.state;
